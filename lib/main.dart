@@ -4,8 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'splase_screen.dart';
-import 'config/language_String.dart';
+import 'splash_screen.dart';
+//import 'config/language_String.dart';
 import 'config/light_and_dark.dart';
 
 Future<void> main() async {
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
           dividerColor: Colors.transparent,
           fontFamily: 'SofiaProLight',
         ),
-        home: const Splase_Screen(),
+        home: const SplashScreen(), // ✅ Corrigé ici
       ),
     );
   }

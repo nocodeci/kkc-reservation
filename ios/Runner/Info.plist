@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- 🔒 Autorisation Réseau Local -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Cette application a besoin d'accéder au réseau local pour fonctionner correctement.</string>
 </dict>
 </plist>
